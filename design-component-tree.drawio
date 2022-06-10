@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="5O6aEfZUdrxiaq1wqxqw" name="Page-1">
+        <mxGraphModel dx="877" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="the links will go here - won't need to be components" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;fontStyle=2" parent="1" vertex="1">
+                    <mxGeometry x="160" y="130" width="430" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="App" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="70" width="860" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Header" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="80" width="730" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="COMPONENT TREE" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;fontStyle=4" parent="1" vertex="1">
+                    <mxGeometry x="40" y="25" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Nav" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="120" width="690" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Footer" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="670" width="660" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="ProductsGroup" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="290" width="660" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Product" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="340" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Product" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="490" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Product" style="whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=4;fontSize=19;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="340" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Title and logo will go here - won't be components" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;fontStyle=2" parent="1" vertex="1">
+                    <mxGeometry x="110" y="190" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="this will contain an image&lt;br&gt;, description, title, category etc" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;fontStyle=2" parent="1" vertex="1">
+                    <mxGeometry x="310" y="375" width="260" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
