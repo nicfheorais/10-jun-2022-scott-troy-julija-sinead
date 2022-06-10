@@ -1,5 +1,4 @@
 .productsGroup {
-    background-color: rgb(104, 104, 146);
 }
 
 .productsCards {
@@ -17,6 +16,18 @@
     .productsCards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .productsCards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 15px;
         grid-row-gap: 20px;
