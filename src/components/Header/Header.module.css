@@ -1,4 +1,6 @@
 .header {
     border: 1px solid pink;
     text-align: center;
+    font-family: monospace;
+    font-size: 24px;
 }

@@ -1,4 +1,9 @@
 .footer {
-    border: 1px solid red; 
+    border: 1px solid red;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
 }
