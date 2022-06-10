@@ -1,20 +1,39 @@
 .product {
-    background-color: aqua;
     width: 20em;
     height: 22em;
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .productImage {
     position: relative;
-    width: 100%;
-    height: auto;
+    max-width: 9em;
+    width: 7em;
+    height: 7em;
 }
 
 .headline {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .productDescription {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .categoryPrice {
