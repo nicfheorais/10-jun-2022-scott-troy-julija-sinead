@@ -6,9 +6,9 @@ import Footer from "../Footer/Footer.js";
 function App() {
     return (
         <div className={css.app}>
-            {/* <Header /> */}
+            <Header />
             <ProductsGroup />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }
