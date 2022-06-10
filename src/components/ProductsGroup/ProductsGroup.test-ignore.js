@@ -1,7 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import ProductsGroup from "./ProductsGroup.js";
 
-it("should print the ProductsGroup component", () => {
+it("should render the ProductsGroup Component", () => {
     render(<ProductsGroup />);
-    //screen.debug();
+    screen.debug();
+    //expect productgroup component to be visible
 });

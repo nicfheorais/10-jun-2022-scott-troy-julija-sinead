@@ -2,11 +2,13 @@ import { render, screen } from "@testing-library/react";
 import Product from "./Product.js";
 
 describe("Basic Render Test", () => {
-    it("renders the Product Component", () => {
+    it("should render the Product Component", () => {
         render(<Product />);
+        //screen.debug();
         //expect product component to be visible
     });
 });
+
 describe("Images Test", () => {
     it("renders the alt text correctly", () => {
         const expectedAltText = "ProductImage";
@@ -20,18 +22,18 @@ describe("Product Heading Tests", () => {
         render(<Product />);
         //expect(screen.getByText("HEADLINE")).toBeInTheDocument();
     });
-    it("renders PRODUCT header", () => {
-        render(<Product />);
-        //expect(screen.getByText("PRODUCT")).toBeInTheDocument();
-    });
-    it("renders CATEGORY header", () => {
-        render(<Product />);
-        //expect(screen.getByText("CATEGORY")).toBeInTheDocument();
-    });
-    it("renders PRICE header", () => {
-        render(<Product />);
-        //expect(screen.getByText("PRICE")).toBeInTheDocument();
-    });
+    //     it("renders PRODUCT header", () => {
+    //         render(<Product />);
+    //         //expect(screen.getByText("PRODUCT")).toBeInTheDocument();
+    //     });
+    //     it("renders CATEGORY header", () => {
+    //         render(<Product />);
+    //         //expect(screen.getByText("CATEGORY")).toBeInTheDocument();
+    //     });
+    //     it("renders PRICE header", () => {
+    //         render(<Product />);
+    //         //expect(screen.getByText("PRICE")).toBeInTheDocument();
+    //     });
 });
 
 //     const operatorButtons = ["+", "-", "*", "/", "="];
