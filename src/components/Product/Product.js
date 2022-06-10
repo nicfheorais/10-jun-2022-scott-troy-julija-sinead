@@ -2,11 +2,11 @@ import css from "./Product.module.css";
 
 function Product({ product }) {
     console.log(product);
-    let title = product.title;
-    let image = product.image;
-    let description = product.description.substring(0, 100);
-    let category = product.category;
-    let price = product.price;
+    let title = product?.title;
+    let image = product?.image;
+    let description = product?.description.substring(0, 100);
+    let category = product?.category;
+    let price = product?.price;
 
     return (
         <div className={css.product} testid="product">
