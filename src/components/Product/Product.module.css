@@ -1,4 +1,30 @@
 .product {
-    border: 1px solid orange;
-    text-align: center;
+    background-color: aqua;
+    width: 20em;
+    height: 22em;
+    margin: 1em;
+}
+
+.productImage {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.headline {
+}
+
+.productDescription {
+}
+
+.categoryPrice {
+    display: flex;
+    background: bisque;
+    justify-content: space-around;
+}
+
+.category {
+}
+
+.price {
 }
