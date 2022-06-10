@@ -1,5 +1,11 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./App.js";
+
+it("should render the App Component", () => {
+    render(<App />);
+    screen.debug();
+    //expect App component to be visible
+});
 
 // test('renders learn react link', () => {
 //   render(<App />);
