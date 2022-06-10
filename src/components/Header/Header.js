@@ -12,7 +12,11 @@ function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src={logo} alt="Fashion Guru logo" />
+                    <img
+                        src={logo}
+                        className={css.image}
+                        alt="Fashion Guru logo"
+                    />
                 </a>
             </div>
             <Nav />
