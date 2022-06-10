@@ -6,12 +6,14 @@ function ProductsGroup() {
     return (
         <div className={css.productsGroup}>
             <p>Add ProductsGroup here</p>
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+            <div className={css.productsCards}>
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+            </div>
         </div>
     );
 }

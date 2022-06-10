@@ -1,4 +1,11 @@
 .productsGroup {
-    border: 1px solid violet;
-    text-align: center;
+    background-color: rgb(104, 104, 146);
+}
+
+.productsCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
 }
