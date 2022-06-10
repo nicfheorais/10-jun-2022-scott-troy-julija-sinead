@@ -6,6 +6,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
 }
