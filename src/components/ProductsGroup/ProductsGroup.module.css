@@ -1,4 +1,37 @@
 .productsGroup {
-    border: 1px solid violet;
-    text-align: center;
+}
+
+.productsCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1050px) {
+    .productsCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .productsCards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
 }
